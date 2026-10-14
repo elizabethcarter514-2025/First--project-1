@@ -438,7 +438,7 @@ LANDING
 
    /* SMALL PHONES, TABLETS,LARGE SMARTPHONES */
 
-   @media (max-width: 768px)
+   @media (max-width: 768px) {
     
     padding: 0 24px;
    }
