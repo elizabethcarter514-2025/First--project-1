@@ -162,7 +162,7 @@ LANDING
   }
 
   header {
-    height: calc(100vh - 80px);
+    height: auto;
   }
 
   .header__container {
@@ -170,9 +170,10 @@ LANDING
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
-    height: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: space-around;
+   display: flex;
     }
 
   .header__description {
@@ -213,9 +214,9 @@ LANDING
   border: none;
  }
 
-.header__img--wrapper {
-  padding: 24px;
-  z-index: 2;
+.header__img--wrapper img {
+  max-height: 400px;
+  object-fit: contain;
 }
 
 .container {
