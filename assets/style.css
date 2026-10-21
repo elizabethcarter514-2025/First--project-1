@@ -267,7 +267,6 @@ LANDING
     background: url(./wave.svg);
     content:"";
     position: absolute;
-    top: 1px;
     left: 0;
     transform: translateY(-100);
     width: 101vw;
